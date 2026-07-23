@@ -17,6 +17,7 @@ import verified from './assets/image-7.png'
 import link from './assets/link.png'
 import pin from './assets/pin.png'
 import pinwhite from './assets/pinwhite.png'
+import eclipse from './assets/eclipse.png'
 
 const Pin = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.02 7-12a7 7 0 1 0-14 0c0 6.98 7 12 7 12Zm0-8.5A3.5 3.5 0 1 0 12 5a3.5 3.5 0 0 0 0 7.5Z" /></svg>
 const Menu = () => <span className="menu" aria-label="Open menu"><i /><i /><i /></span>
@@ -75,6 +76,7 @@ function Profile() {
 const events = [
   { image: eventOne, title: 'BAUGRUPPE90 At Radio Estrella', date: 'July 25, 9:00 PM', venue: 'Radio Estrella' },
   { image: eventTwo, title: 'Pura Vida | 31.07', date: 'July 31, 9:00 PM', venue: 'Radio Estrella' },
+  { image: eclipse, title: 'Eclipse: Lee Foss', date: 'August 1, 9:00 PM', venue: 'Radio Estrella' },
 ]
 
 const pastEvents = [
