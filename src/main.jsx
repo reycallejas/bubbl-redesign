@@ -54,7 +54,7 @@ function Profile() {
     <section className="identity">
       <img className="avatar" src={avatar} alt={profileName} />
       <ProfileName name={profileName} />
-      <p className="place">San José, Costa Rica <span className="handle"><img src={insta} alt="" />radioestrella.bog</span></p>
+      <p className="place">Bogotá, Colombia <span className="handle"><img src={insta} alt="" />radioestrella.bog</span></p>
       <div className="follow-row"><span><b>9566</b> followers</span><button onClick={() => setFollowing(!following)} className={following ? 'follow active' : 'follow'}>{following ? 'Following' : 'Follow'}</button></div>
       <p className="link"><img src={link} alt="" />www.radioestrella.com</p>
       <p className="bio">Horario: Vie - Sab. 10 pm - 5 am <br/>Carrera 15 # 99-23, Bogota </p>
